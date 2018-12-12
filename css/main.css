@@ -35,6 +35,10 @@ nav a:hover{
     background: green
 }
 
+.blue{
+    background: blue
+}
+
 #iconcontainer{
     padding: 0;
     float: right;
@@ -46,12 +50,15 @@ nav a:hover{
 }
 
 .iconrow .icondot{
-    background: black;
     width: 6px;
     height: 6px;
     opacity: .5;
     margin: 0 -1px;
     display: inline-block;
+}
+
+#iconcontainer .iconrow .icondot{
+    background: black;
 }
 
 nav a, nav #container{
@@ -95,6 +102,22 @@ nav a, nav #container{
     border-radius: 30px;
     background: rgb(235, 231, 231);
     box-shadow: none;
+}
+
+.red{
+    background: red;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.green{
+    background: green;
+}
+
+#s:focus{
+    border: none
 }
 
 #search{
