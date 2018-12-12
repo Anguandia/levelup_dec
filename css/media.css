@@ -1,0 +1,20 @@
+@media screen and (max-width: 700px){
+    header{
+        display: none
+    }
+}
+@media screen and (max-width: 400px){
+    nav a{
+        display: none;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #s{
+        width: 90%;
+        height: 4%;
+        font-size: 14px;
+    }
+}
